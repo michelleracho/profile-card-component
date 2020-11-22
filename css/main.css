@@ -27,6 +27,7 @@ body {
   position: relative;
   background-color: #19a2ae;
   overflow: hidden;
+  font-size: 1.2rem;
 }
 
 body::before, body::after {
@@ -41,7 +42,7 @@ body::before {
   top: -50%;
   background: url(../images/bg-pattern-top.svg);
   background-repeat: no-repeat;
-  background-position: left top 100%;
+  background-position: left -25% top 100%;
 }
 
 @media only screen and (max-width: 375px) {
@@ -54,7 +55,7 @@ body::after {
   bottom: -50%;
   background: url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: right bottom 100%;
+  background-position: right -25% bottom 100%;
 }
 
 @media only screen and (max-width: 375px) {
@@ -106,7 +107,7 @@ body::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: -2.5rem;
+  margin-top: -3rem;
 }
 
 .profile__photo {
@@ -146,7 +147,8 @@ body::after {
 }
 
 .stats__label {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
   color: #6a6f81;
   letter-spacing: 1.5px;
   margin-top: 0.5rem;

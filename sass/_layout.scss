@@ -25,7 +25,7 @@
 
   & > div {
     display: flex;
-    margin-top: -2.5rem;
+    margin-top: -3rem;
   }
 
   &__photo {
@@ -62,7 +62,8 @@
   }
 
   &__label {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
     color: $color-primary-grayish-blue;
     letter-spacing: 1.5px;
     margin-top: 0.5rem;
