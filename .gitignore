@@ -15,3 +15,6 @@
 .DS_Store
 
 .prettierignore
+
+# not pushing deploy folder
+deploy
